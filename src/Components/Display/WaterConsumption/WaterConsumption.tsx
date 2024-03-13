@@ -1,9 +1,9 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { Ionicons, MaterialIcons, FontAwesome6 } from '@expo/vector-icons';
+import { View, Text, TouchableOpacity } from 'react-native';
 import GlobalStyles from '../../../stylesheets/Styles';
 import componentStyles from './WaterConsumption.styles';
 import Colors from '../../../stylesheets/Colors';
+import { FontAwesome5, Ionicons, MaterialIcons } from '@expo/vector-icons';
 
 const WaterConsumption = () => {
     const water = "0"
@@ -31,7 +31,7 @@ const WaterConsumption = () => {
                         </View>
                     </TouchableOpacity>
 
-                    <FontAwesome6 name="glass-water" size={60} color='grey' />
+                    <FontAwesome5 name="glass-whiskey" size={60} color={Colors.lightBlue} />
 
                     <TouchableOpacity onPress={() => { }}>
                         <View style={componentStyles.itemColumnGh}>

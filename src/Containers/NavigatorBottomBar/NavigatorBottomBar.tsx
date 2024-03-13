@@ -1,8 +1,7 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import HomeScreen from "../../screen/HomeScreen";
+import HomeScreen from "../../screens/HomeScreen";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Icon, { Icons } from "../../stylesheets/Icons";
-import Styles from "../../stylesheets/Styles";
 import Colors from "../../stylesheets/Colors";
 import { Text, StyleSheet, TouchableOpacity } from "react-native";
 import * as Animatable from 'react-native-animatable';

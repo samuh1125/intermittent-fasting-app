@@ -1,12 +1,14 @@
-
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
 import MainNavigator from './src/Navigator/MainNavigator';
+import Login from './src/screens/Login/Login';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 
 export default function App() {
   return (
-    <MainNavigator />
+    <SafeAreaProvider>
+      {/* <MainNavigator /> */}
+      <Login />
+    </SafeAreaProvider>
   );
 }
 

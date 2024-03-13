@@ -1,7 +1,7 @@
 import { View, Text } from "react-native-animatable";
-import { primaryStyles, secondaryStyles } from "./Bottoms.styles"
 import { TouchableOpacity } from "react-native";
 import Colors from "../../stylesheets/Colors";
+import { primaryStyles, secondaryStyles, loginSignupStyles } from "./Buttons.styles";
 
 export function PrimaryButton(props) {
 
@@ -42,6 +42,23 @@ export function SecondaryButton(props) {
             onPress={onPress}
         >
             <Text style={{ ...secondaryStyles.optionButtonText, color: Colors.gray }} >
+                {text}
+            </Text>
+        </TouchableOpacity>
+
+    )
+}
+
+export function LoginSignupButton(props) {
+    const { onPress, text, colorText } = props
+    return (
+        <TouchableOpacity
+            style={{
+                ...loginSignupStyles.conteiner,
+            }}
+            onPress={onPress}
+        >
+            <Text style={{ ...loginSignupStyles.textButton, color: colorText }} >
                 {text}
             </Text>
         </TouchableOpacity>

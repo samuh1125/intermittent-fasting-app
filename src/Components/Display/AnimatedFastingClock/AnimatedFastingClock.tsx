@@ -1,8 +1,7 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
 import React from 'react'
 import GlobalStyles from '../../../stylesheets/Styles'
 import localStyles from './AnimatedFastingClock.styles'
-import CircularProgressBarScreen from './CircularProgressBarScreen'
 
 
 export default function AnimatedFastingClock(props) {
@@ -17,10 +16,6 @@ export default function AnimatedFastingClock(props) {
 
             <View>
                 <Text style={localStyles.textHours}>{time}</Text>
-            </View>
-
-            <View>
-                {/*<CircularProgressBarScreen />*/}
             </View>
         </View>
     )

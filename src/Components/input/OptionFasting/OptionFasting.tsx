@@ -1,7 +1,8 @@
 import { View } from "react-native-animatable";
 import styles from "./OptionFasting.styles"
+import { SecondaryButton } from "../../../Containers/Buttons/Buttons";
 
-import { SecondaryButton } from "../../../Containers/Bottoms/Bottoms";
+
 
 const OptionFasting = () => {
     return (

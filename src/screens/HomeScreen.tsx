@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import OptionFasting from '../Components/input/OptionFasting/OptionFasting'
 import stylesText from './HomeScreen.styles'
-import { PrimaryButton } from '../Containers/Bottoms/Bottoms'
+import { PrimaryButton } from '../Containers/Buttons/Buttons'
 import AnimatedFastingClock from '../Components/Display/AnimatedFastingClock/AnimatedFastingClock'
 import WaterConsumption from '../Components/Display/WaterConsumption/WaterConsumption'
 
